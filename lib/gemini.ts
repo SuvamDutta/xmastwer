@@ -1,6 +1,6 @@
 import { buildSystemPrompt, buildUserPrompt, GeneratePostInput, GeneratedPost } from './prompts';
 
-const GROQ_MODEL = 'llama-3.1-70b-versatile';
+const GROQ_MODEL = 'openai/gpt-oss-120b';
 
 function getApiKey(): string {
   const apiKey = process.env.GROQ_API_KEY;
